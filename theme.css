@@ -66,13 +66,14 @@ margin-left:2%;
      #testos{font-size:80%;}
      #titolo{font-size:100%}
      #sinitra h2{font-size:100%}
- 
+  #sinistraindex h2{font-size:100%}
 }
 
 @media screen and (max-width: 950px) {
      #testos{font-size:50%;}
     #titolo{font-size:50%;}
     #sinistra h2{font-size:50%}
+    #sinistraindex h2{font-size:50%}
 }
 
 
@@ -80,12 +81,14 @@ margin-left:2%;
   #testos{font-size:15%;}
     #titolo{font-size:15%;}
     #sinistra h2{font-size:15%}
+       #sinistraindex h2{font-size:15%}
 }
 
 @media screen and (max-width: 480px) {
     #titolo{font-size:2%;}
  #testos{font-size:2%;}
     #sinistra h2{font-size:2%}
+     #sinistraindex h2{font-size:2%}
 }
 
 #home{
@@ -233,7 +236,7 @@ width:65%;
 }
 #sinistraindex{
 position:absolute;
-    
+    top:1%;
     color:white;
 text-align:center;
 font-family:Verdana;
@@ -242,13 +245,11 @@ background-size: 25%;
 
 display:block;
 width:50%;
-height:8%;
 margin-left:37.5%;
-font-size:1vw;
-line-height:3.5vh;
+font-size:115%;
 border-radius:10px;
 border-bottom: 8px solid #e9b7b7;
-text-align:center;
+padding-top:2px;
 }
 
 
