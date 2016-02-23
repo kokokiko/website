@@ -90,7 +90,7 @@ margin-left:2%;
 
 #home{
 width: 50%;
-disply:block;
+display:block;
 position: absolute;
 left:1%;
 margin-top:15%;
@@ -101,7 +101,7 @@ width:60%;
 
 #info{
 width: 50%;
-disply:block;
+display:block;
 position: absolute;
 
 left:1%;
@@ -113,7 +113,7 @@ width:60%;
 
 #prod{
 width:50%;
-disply:block;
+display:block;
 position: absolute;
 
 left:1%;
@@ -123,7 +123,7 @@ margin-top:55%;
 #prod:hover{width:60%;}
 #download{
 width:50%;
-disply:block;
+display:block;
 position: absolute;
 
 left:1%;
@@ -131,7 +131,7 @@ margin-top:75%;}
 #download:hover{width:60%;}
 
 #contact{width:50%;
-disply:block;
+display:block;
 position: absolute;
 
 left:1%;
@@ -168,12 +168,18 @@ padding-top:2px;
 margin-top:1%;
 margin-left:25%;
 }
-
-hr{
-width:50%;
+#hr{width:50%;}
+#sottoslide{
+    width:30%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    
 }
 #contenutoo{
-float:right;
+position:absolute;
+top:54%;
+left:38%;
 margin-right:16%;
 margin-top:1%;
 color:#771136;
@@ -185,28 +191,108 @@ border-top: 1px solid #771136;
 font-family:Arial, Helvetica, sans-serif;
 padding:10px;
 border-radius:5px;
-width:66%;
+width:49%;
 
+}
+#contenutoo2{
+    padding-left:10px;
+    padding-right:10px;
+margin-left:17%;
+margin-right:16%;
+margin-top:1%;
+color:#771136;
+background-color: rgba(255, 255, 255, 0.2);
+border-bottom: 8px solid #771136;
+border-left: 1px solid #771136;
+border-right: 1px solid #771136;
+border-top: 1px solid #771136;
+font-family:Arial, Helvetica, sans-serif;
+padding-bottom:10px;
+border-radius:5px;
+width:65%;
+
+}
+#contenutoo21{
+    overflow-y:hidden;
+margin-left:17%;
+margin-right:16%;
+margin-top:1%;
+color:#771136;
+background-color: rgba(255, 255, 255, 0.2);
+border-bottom: 8px solid #771136;
+border-left: 1px solid #771136;
+border-right: 1px solid #771136;
+border-top: 1px solid #771136;
+font-family:Arial, Helvetica, sans-serif;
+padding-bottom:1vh;
+    padding-left:10px;
+    padding-right:10px;
+border-radius:5px;
+width:65%;
+
+}
+#sinistraindex{
+position:absolute;
+    
+    color:white;
+text-align:center;
+font-family:Verdana;
+background-image: url(http://daila.it/images/site/texture.png);
+background-size: 25%;
+
+display:block;
+width:50%;
+height:8%;
+margin-left:37.5%;
+font-size:1vw;
+line-height:3.5vh;
+border-radius:10px;
+border-bottom: 8px solid #e9b7b7;
+text-align:center;
 }
 
 
 
+#sottosinistra2{
+    position:absolute;
+    display:block;
+    width:45%;
+    height:35%;
+margin-top:1%;
+margin-left:25%;
+    top:10%;
+    left:15.5%
+}
 
+#slideshow{
+width:100%;
+height:100%;
+}
 
-
+#sottosinistra3{
+    position:absolute;
+    display:block;
+    width:45%;
+    height:35%;
+    margin-top:1%;
+    margin-left:25%;
+    left:15.5%
+}
+#vuoto{
+    height:38vh;
+    
+}
 
 
 #slideshow{
-width:66%;
-margin-left:17%;
+width:100%;
+height:100%;
 }
-
-
 
 .slides {
     padding: 0;
     width: 100%;
-    height: 325px;
+    height: 100%;
     display: block;
     margin: 0 auto;
     position: relative;
@@ -231,7 +317,7 @@ border: 2px solid rgba(156, 0, 36, 0.8);
     top: 0;
     opacity: 0;
     width: 100%;
-    height: 325px;
+    height: 100%;
     display: block;
     position: absolute;
 
@@ -246,7 +332,7 @@ border: 2px solid rgba(156, 0, 36, 0.8);
 }
 
 .nav label {
-    width: 200px;
+    width: 45%;
     height: 100%;
     display: none;
     position: absolute;
@@ -258,9 +344,9 @@ border: 2px solid rgba(156, 0, 36, 0.8);
     transition: opacity .2s;
 
     color: #FFF;
-    font-size: 156pt;
+    font-size: 15vw;
     text-align: center;
-    line-height: 300px;
+    line-height:30vh;
     font-family: "Varela Round", sans-serif;
     background-color: rgba(255, 255, 255, .3);
     text-shadow: 0px 0px 15px rgb(119, 119, 119);
@@ -372,19 +458,21 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 
 
 #potatoe{
+    text-align:center;
+    width:28%; height:auto;
+    position:absolute;
+
+    margin-top:111%;
+    margin-left:15%;
     
-    background-image: url(http://daila.it/images/site/circle.png);
-    background-position:center; 
-    background-repeat:no-repeat;
-    background-size:contain;
-    min-width:15%; min-height:15%;
-    position:fixed;
-    bottom:1%;
-    left:0%;
 }
 
 #potatoe:hover{
-width:16%; height:16%;
+    positioN:absolute;
+text-align:center;
+    margin-top:114%;
+    margin-left:18%;
+width:23%; height:auto;
 }
 
 
@@ -648,9 +736,17 @@ padding:8%;
     float:left;
 }
 
+.catalogoimg{
+    height:auto;
+    width:10vw;
+    margin:1vw;
+}
 
-
-
+#contimg{
+   width:40%;
+    margin-left:40%;
+    text-align:center;
+}
 
 
 
