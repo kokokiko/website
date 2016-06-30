@@ -1,0 +1,1509 @@
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body,html { margin: 0; overflow:scroll;} 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+
+
+#slide2{
+    border:4px solid #771136;
+    margin-top:1%;
+    margin-left:40%;
+    width:45%;
+    height:auto;
+}
+#slide22{
+    z-index: -91;
+    margin-top:-15.3%;
+    margin-left:-5%;
+    width:45%;
+    height:auto;
+}
+
+#slide23{
+    z-index: -19;
+    margin-top:-15.3%;
+    margin-left:85.1%;
+    width:45%;
+    height:auto;
+}
+.gradient {
+    position:absolute;
+    z-index:5;
+    height:100%;
+    width:100%;
+ background: -moz-linear-gradient(right, rgba(255,255,255,1) 56%, rgba(255,255,255,1) 61%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(right, rgba(255,255,255,1) 56%,rgba(255,255,255,1) 61%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to left, rgba(255,255,255,1) 56%,rgba(255,255,255,1) 61%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+.gradient2 {
+    position:absolute;
+    z-index:5;
+    height:100%;
+    width:100%;
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 56%, rgba(255,255,255,1) 61%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 56%,rgba(255,255,255,1) 61%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(255,255,255,1) 56%,rgba(255,255,255,1) 61%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+
+}
+
+
+
+
+
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+
+
+
+
+
+
+
+
+body{
+overflow-x:hidden;
+overflow-y:scroll;
+}
+html,body{
+width:100%;
+min-height:100%;
+}
+
+
+#destra{
+  z-index: 2;
+position: fixed;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background:url(http://daila.it/images/site/prop.png) no-repeat fixed;
+background-size:contain;
+
+height:100%;
+width:30%;
+top:0%;
+left:0%;
+}
+
+
+
+
+#logo{
+display:block;
+z-index:10;
+margin:0px;
+width:80%;
+    height:auto;
+}
+#titolo{
+margin-top: -8%;
+font-weight:bold;
+color:white;
+font-family: Verdana;
+    margin-left:2%;
+}
+
+#contseparator{
+-webkit-box-shadow: 0px 2px 3px 0px rgba(255,173,173,1);
+-moz-box-shadow: 0px 2px 3px 0px rgba(255,173,173,1);
+box-shadow: 0px 2px 3px 0px rgba(255,173,173,1);
+width:100%;
+}
+
+#conttesto{
+    width:50%;
+}
+#testos{
+    width:100%;
+    height:100%;
+color:white;
+margin-top:-3%;
+font-family:verdana;
+font-size: 52%;
+margin-left:2%;
+}
+ @media screen and (max-width: 1024px) {
+     #testos{font-size:80%;}
+     #titolo{font-size:100%}
+     #sinitra h2{font-size:100%}
+  #sinistraindex h2{font-size:100%}
+}
+
+@media screen and (max-width: 950px) {
+     #testos{font-size:50%;}
+    #titolo{font-size:50%;}
+    #sinistra h2{font-size:50%}
+    #sinistraindex h2{font-size:50%}
+}
+
+
+@media screen and (max-width: 650px) {
+  #testos{font-size:15%;}
+    #titolo{font-size:15%;}
+    #sinistra h2{font-size:15%}
+       #sinistraindex h2{font-size:15%}
+}
+
+@media screen and (max-width: 480px) {
+    #titolo{font-size:2%;}
+ #testos{font-size:2%;}
+    #sinistra h2{font-size:2%}
+     #sinistraindex h2{font-size:2%}
+}
+
+#home{
+width: 50%;
+display:block;
+position: absolute;
+left:1%;
+margin-top:15%;
+}
+#home:hover{
+width:60%;
+}
+
+#info{
+width: 50%;
+display:block;
+position: absolute;
+
+left:1%;
+margin-top:35%;
+}
+#info:hover{
+width:60%;
+}
+
+#prod{
+width:50%;
+display:block;
+position: absolute;
+
+left:1%;
+margin-top:55%;
+}
+
+#prod:hover{width:60%;}
+#download{
+width:50%;
+display:block;
+position: absolute;
+
+left:1%;
+margin-top:75%;}
+#download:hover{width:60%;}
+
+#contact{width:50%;
+display:block;
+position: absolute;
+
+left:1%;
+margin-top:95%;}
+#contact:hover{width:60%}
+
+
+
+
+
+
+
+
+
+
+#sinistra {
+color:white;
+text-align:center;
+font-family:Verdana;
+background-image: url(http://daila.it/images/site/texture.png);
+background-size: 25%;
+
+display:block;
+width:50%;
+margin-left:37.5%;
+font-size:115%;
+border-radius:10px;
+border-bottom: 8px solid #e9b7b7;
+text-align:center;
+padding-top:2px;
+
+}
+#sottosinistra{
+margin-top:1%;
+margin-left:25%;
+}
+#hr{width:50%;}
+#sottoslide{
+    width:30%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    
+}
+#contenutoo{
+position:absolute;
+top:54%;
+left:38%;
+margin-right:16%;
+margin-top:1%;
+color:#771136;
+background-color: rgba(255, 255, 255, 0.2);
+border-bottom: 8px solid #771136;
+border-left: 1px solid #771136;
+border-right: 1px solid #771136;
+border-top: 1px solid #771136;
+font-family:Arial, Helvetica, sans-serif;
+padding:10px;
+border-radius:5px;
+width:49%;
+
+}
+#contenutoo2{
+    padding-left:10px;
+    padding-right:10px;
+margin-left:17%;
+margin-right:16%;
+margin-top:1%;
+color:#771136;
+background-color: rgba(255, 255, 255, 0.2);
+border-bottom: 8px solid #771136;
+border-left: 1px solid #771136;
+border-right: 1px solid #771136;
+border-top: 1px solid #771136;
+font-family:Arial, Helvetica, sans-serif;
+padding-bottom:10px;
+border-radius:5px;
+width:65%;
+
+}
+#contenutoo21{
+    overflow-y:hidden;
+margin-left:17%;
+margin-right:16%;
+margin-top:1%;
+color:#771136;
+background-color: rgba(255, 255, 255, 0.2);
+border-bottom: 8px solid #771136;
+border-left: 1px solid #771136;
+border-right: 1px solid #771136;
+border-top: 1px solid #771136;
+font-family:Arial, Helvetica, sans-serif;
+padding-bottom:1vh;
+    padding-left:10px;
+    padding-right:10px;
+border-radius:5px;
+width:65%;
+
+}
+#sinistraindex{
+position:absolute;
+    top:1%;
+    color:white;
+text-align:center;
+font-family:Verdana;
+background-image: url(http://daila.it/images/site/texture.png);
+background-size: 25%;
+
+display:block;
+width:50%;
+margin-left:37.5%;
+font-size:115%;
+border-radius:10px;
+border-bottom: 8px solid #e9b7b7;
+padding-top:2px;
+}
+
+
+
+#sottosinistra2{
+    position:absolute;
+    display:block;
+    width:45%;
+    height:35%;
+margin-top:1%;
+margin-left:25%;
+    top:10%;
+    left:15.5%
+}
+
+#slideshow{
+width:100%;
+height:100%;
+}
+
+#sottosinistra3{
+    position:absolute;
+    display:block;
+    width:45%;
+    height:35%;
+    margin-top:1%;
+    margin-left:25%;
+    left:15.5%
+}
+#vuoto{
+    height:38vh;
+    
+}
+
+
+#slideshow{
+width:100%;
+height:100%;
+}
+
+.slides {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+
+border: 2px solid rgba(156, 0, 36, 0.8);
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.slides input { display: none; }
+
+.slide-container { display: block; }
+
+.slide {
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+
+    transform: scale(0);
+
+    transition: all .7s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav label {
+    width: 45%;
+    height: 100%;
+    display: none;
+    position: absolute;
+
+	  opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+
+    transition: opacity .2s;
+
+    color: #FFF;
+    font-size: 15vw;
+    text-align: center;
+    line-height:30vh;
+    font-family: "Varela Round", sans-serif;
+    background-color: rgba(255, 255, 255, .3);
+    text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+.slide:hover + .nav label { opacity: 0.5; }
+
+.nav label:hover { opacity: 1; }
+
+.nav .next { right: 0; }
+
+input:checked + .slide-container  .slide {
+    opacity: 1;
+
+    transform: scale(1);
+
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .nav label { display: block; }
+
+.nav-dots {
+	width: 100%;
+	bottom: 9px;
+	height: 11px;
+	display: block;
+	position: absolute;
+	text-align: center;
+}
+
+.nav-dots .nav-dot {
+	top: -5px;
+	width: 11px;
+	height: 11px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-dots .nav-dot:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3,
+input#img-4:checked ~ .nav-dots label#img-dot-4,
+input#img-5:checked ~ .nav-dots label#img-dot-5,
+input#img-6:checked ~ .nav-dots label#img-dot-6 {
+	background: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#potatoe{
+    text-align:center;
+    width:28%; height:auto;
+    position:absolute;
+
+    margin-top:111%;
+    margin-left:15%;
+    
+}
+
+#potatoe:hover{
+    positioN:absolute;
+text-align:center;
+    margin-top:114%;
+    margin-left:18%;
+width:23%; height:auto;
+}
+
+
+
+#Ind{
+    
+    position:relative;}
+
+#lista{
+    list-style: none;
+    position:relative;
+    top:-36px; left:150px;
+    margin:0px;
+    padding-left:0px;
+    width:40%;
+}
+
+#lista li{
+    padding-bottom:20px;
+}
+
+
+#mail{position:relative;}
+#email{position:relative;
+top:-36px; left:150px;
+width:40%;
+}
+#telefono{position:relative;}
+#num{
+    position:relative;
+top:-36px; left:150px;
+width:35%;
+}
+
+#fax{position:relative;}
+#itfax{
+    position:relative;
+    top:-36px; left:150px;
+width:25%;
+    list-style:none;
+    padding:0px;
+    
+}
+
+#itfax li{padding-bottom:20px;}
+#po{
+    position:relative;
+}
+#lista2{
+    position:relative;
+    top:-36px; left:150px;
+width:35%;
+    padding:0px;
+    list-style: none;
+}
+#lista2 li{padding-bottom:20px;}
+#Emailform{
+    clear:both;
+}
+
+#contmappa{
+    width:100%;
+    height:420px;
+    border:1px solid #771136;
+}
+
+
+.miao1{
+    width:80%;
+    color:#771136;
+}
+
+.btn2 {
+    width:100px;
+  //font-size: 5em;
+  display: inline-block;
+  padding: 0.7em 1.5em;
+  margin-bottom: 1em;
+  border-radius: 0.4em;
+    color:white;
+  background: #771136;
+  text-shadow: 0 0.08em 0.08em #000;
+  border-width: 0.08em;
+  border-style: solid;
+  border-color: 
+    darken(#771136,10%) 
+    darken(#771136,10%) 
+    darken(#771136,20%);
+  border-bottom-width: 0.2em;
+  box-shadow:
+     inset 0.08em .08em 0.14em rgba(255,255,255,.5), 
+     0.08em 0.14em 0.2em rgba(0,0,0,.3);
+  
+  }
+   
+  .btn2:hover {
+     color:#771136;
+    background-color:white;
+      border:1px solid #771136
+}
+
+#slideshow2{
+width:100%;
+}
+
+/*end page chi siamo*/
+
+
+/* page: PRODUZIONE */
+
+
+.buttonprd {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+ 
+    width:60%;
+    height:18%;
+   text-align:center;
+padding:8%;
+  border: 3px solid rgba(255,255,255,0.2);
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: normal normal bold 16px/normal Arial, Helvetica, sans-serif;
+  color: rgba(255,255,255,0.9);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #771136;
+  -webkit-box-shadow: 4px 4px 2px 0 rgba(0,0,0,0.2) ;
+  box-shadow: 4px 4px 2px 0 rgba(0,0,0,0.2) ;
+}
+.buttonprdalt{
+    display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+ 
+    width:60%;
+    height:18%;
+   text-align:center;
+padding:8%;
+  border: 3px solid rgba(255,255,255,0.2);
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: normal normal bold 16px/normal Arial, Helvetica, sans-serif;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  -webkit-box-shadow: 4px 4px 2px 0 rgba(0,0,0,0.2) ;
+  box-shadow: 4px 4px 2px 0 rgba(0,0,0,0.2) ;
+    border: 3px solid #771136;
+  color: #771136;
+  background: rgb(255,255,255);
+}
+.buttonprd:hover {
+  border: 3px solid #771136;
+  color: #771136;
+  background: rgb(255,255,255);
+}
+.buttonprdalt:hover{
+  border: 3px solid rgba(255,255,255,0.2);
+    color: white;
+    background-color:#771136;
+}
+.buttonprd2 {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+ position:relative;
+    left:2%;
+    
+    width:90%;
+    height:10%;
+   text-align:center;
+    padding:2%;
+  border: 3px solid rgba(255,255,255,0.2);
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: normal normal bold 16px/normal Arial, Helvetica, sans-serif;
+  color: rgba(255,255,255,0.9);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #771136;
+  -webkit-box-shadow: 4px 4px 2px 0 rgba(0,0,0,0.2) ;
+  box-shadow: 4px 4px 2px 0 rgba(0,0,0,0.2) ;
+}
+.buttonprd2:hover {
+  border: 3px solid #771136;
+  color: #771136;
+  background: rgb(255,255,255);
+}
+
+
+
+
+
+
+
+ @media screen and (max-width: 1024px) {
+.buttonprd{font-size:100%;width:60%;}
+.buttonprdalt{font-size:100%;width:60%;}
+     .buttonprd2{font-size:100%}
+#meta{font-size:100%;}
+#altrameta{font-size:100%;}
+#prodtitle{font-size:100%;}     
+    .default{font-size:100%;}
+     #sottosinistra4 p, h2{font-size:80%;}
+     .figlio, .figlio2, .figlio3, figlio4 {
+         top:50%;
+     }
+}
+
+@media screen and (max-width: 950px) {
+.buttonprd{ font-size:50%; }
+.buttonprdalt{font-size:50%;}
+  .buttonprd2{font-size:50%;}  
+#meta{font-size:50%;}  
+#altrameta{font-size:50%;}
+#prodtitle{font-size:50%;}
+   
+    .default{font-size:50%;}
+    
+  .figlio, .figlio2, .figlio3, .figlio4 {
+        
+     }
+     #sottosinistra4 p, h2{font-size:40%;}
+}
+
+
+@media screen and (max-width: 650px) {
+.buttonprdalt{font-size:15%}
+.buttonprd{ font-size:15%;}
+#meta{font-size:15%;} 
+#altrameta{font-size:15%;}
+#prodtitle{font-size:15%;}
+  .buttonprd2{font-size:15%}
+    .default{font-size:15%;}
+  
+#contattaciimg{
+          visibility: hidden;
+      }
+     #sottosinistra4 p, h2{font-size:15%;}
+}
+
+@media screen and (max-width: 480px) {
+.buttonprdalt{font-size:2%;width:65%;}
+.buttonprd{ font-size:2%; width:65%;}
+    .buttonprda2{font-size:2%}
+#meta{font-size:2%;}
+#meta ul{margin:1px; padding:1px;}
+#altrameta{font-size:2%;}
+#altrameta ul{text-align:right; margin:0px; padding-left:15px;}
+#prodtitle{font-size:2%;}
+    .default{font-size:2%;}  
+  .figlio4,.figlio,.figlio2,.figlio3 {
+      
+         margin-top:-35%;
+      
+     }
+    #contattaciimg{
+          visibility: hidden;
+      }
+     #sottosinistra4 p, h2{font-size:2%;}
+    }
+}
+.buttonprd:active {
+}
+
+
+
+#meta{
+    width:50%;
+    border-right:1px solid #771136;
+    float:left;
+}
+#altrameta{
+    width:49%;
+    text-align:right;
+    float:left;
+}
+#blockchisiamo{
+    width:50%;
+    display:inline-block;
+   text-align:right;
+   
+}
+.catalogoimg{
+    height:auto;
+    width:10vw;
+    margin:1vw;
+}
+
+#contimg{
+   width:40%;
+    margin-left:40%;
+    text-align:center;
+}
+#contimg img{
+    border:1px solid rgba(255,255,255,0);
+}
+#contimg2{
+   width:30%;
+    position:absolute;
+    right:1%;
+    text-align:center;
+    z-index:3;
+}
+
+
+.catalogoimg2{
+    height:auto;
+    width:45%;
+}
+
+#contcats{
+    margin-top:9%;
+    width:40%;
+    height: 700px;
+    position:absolute;
+    top:0%;
+    right:0%;
+    margin-right:20%;
+    z-index:2;
+  background-color:white;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+  
+overflow:auto;
+   
+    
+}
+#contcats #pi{
+    height:84%;
+    margin-left:3%;
+    margin-top:4%;
+     -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    z-index:0;
+    -moz-column-rule: 1px solid #5B717C; /* Firefox */
+    column-rule: 1px solid #5B717C;
+    
+    
+      -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    
+    z-index:-1;
+        overflow:auto;
+}
+
+
+
+
+.pi::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.pi::-webkit-scrollbar
+{
+	width: 12px;
+    height: 10px;
+	background-color: #F5F5F5;
+}
+
+.pi::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: slategray;
+    transition:background-color 0.3s;
+}
+.pi::-webkit-scrollbar-thumb:hover
+{
+    background-color:#555;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#prodottosingolo{
+    -webkit-column-break-inside: avoid; /* Chrome, Safari */
+    page-break-inside: avoid;           /* Theoretically FF 20+ */
+    break-inside: avoid-column;         /* IE 11 */
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    cursor:pointer;
+   
+}
+#prodottosingolo:hover{
+      -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.09);
+-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.09);
+box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.09);
+}
+
+#nextbtn, #nextbtnin{
+    
+ -webkit-transition: background-color 200ms linear;
+    -moz-transition: background-color 200ms linear;
+    -o-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+
+
+#zavcimg{
+    margin-top:0%;
+    width:100%;
+    height:auto;
+    border-radius:10%;
+}
+.catalogoimgopened{
+    border-radius:100%;
+    height:auto;
+    width:12vw;
+        
+    cursor:pointer;
+}
+#ab{
+    margin-top:2%;
+    margin-left:-25%;
+    position:absolute;
+    border-radius:100%;  
+}
+#details{
+    position:absolute;
+    top:0%;
+    width:10%;
+    height:auto;
+    margin-top:30%;
+    margin-left:20%;
+}
+
+#backbtn{
+   margin-left:69%;
+    margin-top:38%;
+    position:absolute;
+    width:9%;
+}
+
+#backbtnzc{
+   margin-left:30%;
+    margin-top:44%;
+    position:absolute;
+    width:9%;
+}
+
+#backbtngdzc{
+   margin-left:69%;
+    margin-top:34%;
+    position:absolute;
+    width:9%;
+}
+
+
+
+
+#contattaciimg{
+    border: 2px solid #771136;
+      -webkit-box-shadow: 4px 4px 2px 0 rgba(0,0,0,0.2) ;
+  box-shadow: 4px 4px 2px 0 rgba(0,0,0,0.2) ;
+    min-height:10px;
+    min-width:10px;
+    width:40%;
+    height:auto;
+    float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#visualdetails{
+    z-index:9;
+        position:absolute;
+    top:0%;
+    margin-top:8%;
+    width:20%;
+    height:auto;
+    margin-left:20%;
+    
+}
+#bubbletext{
+    
+    width:100%;
+    height:auto;
+}
+
+.catalogoimg2{
+    border-radius:100%;
+    height:auto;
+    width:15vw;
+    margin:1vw;
+    top:2%:
+        
+    cursor:pointer;
+}
+.catalogoimg3{
+    height:auto;
+    width:15vw;
+     border-radius:100%;
+    margin:1vw;
+    
+    cursor:pointer;
+}
+.catalogoimg4{
+    height:auto;
+    width:15vw;
+     border-radius:100%;
+    margin:1vw;
+    
+    cursor:pointer;
+    
+}
+#sottosinistra4{
+    width:80%;
+margin-top:5%;
+margin-left:30%;
+    height:0px;
+}
+
+
+
+
+
+#miao{
+    top:10%;
+    position:absolute;
+    border-radius:100%;    
+}
+.madre{
+    overflow:visible;
+    text-align:center;
+    height:1vh;
+    width:1vw;
+    margin:1vw;
+}
+.figlio{
+    top:50%;
+    position:absolute;
+      display:none;
+    width:50vw;
+    height: 45%;
+    padding: 0px;
+    background: rgba(255, 255, 255, 0.8);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 10px 0px #616161;
+    -moz-box-shadow: 0px 1px 10px 0px #616161;
+    box-shadow: 0px 1px 10px 0px #616161;
+    text-align:center;
+    color:rgba(119, 17, 54, 0.8);
+    text-shadow: 1px 2px 3px #FFFFFF;
+   padding:15px;
+     background-image: url(http://daila.it/images/site/logotest.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    font-family:Arial;
+    font-size:80%;
+}
+.figlio h2{
+    margin-top:5%;
+}
+.figlio p{margin-left:5%;margin-right:5%;margin-bottom:5%;}
+
+.madre:hover .figlio{
+    display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#miao2{
+    left:50%;
+    top:10%;
+    position:absolute;
+    border-radius:100%;    
+}
+.madre2{
+    overflow:visible;
+    text-align:center;
+    height:1vh;
+    width:1vw;
+    margin:1vw;
+}
+.figlio2{
+     top:50%;
+    position:absolute;
+      display:none;
+    width:50vw;
+    height: 45%;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 10px 0px #616161;
+    -moz-box-shadow: 0px 1px 10px 0px #616161;
+    box-shadow: 0px 1px 10px 0px #616161;
+    text-align:center;
+    color:rgba(119, 17, 54, 0.8);
+    text-shadow: 1px 2px 3px #FFFFFF;
+    padding:15px;
+     background-image: url(http://daila.it/images/site/logotest.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    font-family:Arial;
+    font-size:80%;
+}
+.figlio2 h2{
+    margin-top:5%;
+}
+.figlio2 p{margin-left:5%;margin-right:5%;margin-bottom:5%;}
+
+.madre2:hover .figlio2{
+    display:block;
+}
+
+
+
+
+
+
+
+#miao3{
+    left:68%;
+    top:10%;
+    position:absolute;
+    border-radius:100%;    
+}
+.madre3{
+    overflow:visible;
+    text-align:center;
+    height:1vh;
+    width:1vw;
+    margin:1vw;
+}
+.figlio3{
+     top:50%;
+    position:absolute;
+      display:none;
+    width:50vw;
+    
+    height: 45%;
+    
+    padding: 0px;
+    background: rgba(255, 255, 255, 0.8);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 10px 0px #616161;
+    -moz-box-shadow: 0px 1px 10px 0px #616161;
+    box-shadow: 0px 1px 10px 0px #616161;
+    text-align:center;
+    color:rgba(119, 17, 54, 0.8);
+    text-shadow: 1px 2px 3px #FFFFFF;
+   padding:15px;
+     background-image: url(http://daila.it/images/site/logotest.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    font-family:Arial;
+    font-size:80%;
+}
+.figlio3 h2{
+    margin-top:5%;
+}
+.figlio3 p{margin-left:5%;margin-right:5%;margin-bottom:5%;}
+
+.madre3:hover .figlio3{
+    display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.catalogoimg21{
+    border-radius:100%;
+    height:auto;
+    width:8vw;
+    margin:1vw;
+    top:2%;
+        z-index:20;
+    cursor:pointer;
+}
+
+
+#miao1{
+    margin-left:-10%;
+    margin-top:13%;
+    top:0%;
+    position:absolute;
+    border-radius:100%; 
+        z-index:20;   
+}
+#miao11{
+    margin-left:-10%;
+    margin-top:13%;
+    top:0%;
+    position:absolute;
+    border-radius:100%; 
+        z-index:20;   
+    
+     opacity:0.6;
+     filter: alpha(opacity=60); /* internet explorer */
+}
+.madre1{
+    overflow:visible;
+    text-align:center;
+    height:1vh;
+    width:1vw;
+    margin:1vw;
+        z-index:20;
+}
+
+
+
+
+
+
+
+#miao21{
+    margin-left:-13%;
+     margin-top:23%;
+    top:0%;
+    position:absolute;
+    border-radius:100%; 
+        z-index:20;   
+}
+#miao211{
+    margin-left:-13%;
+     margin-top:23%;
+    top:0%;
+    position:absolute;
+    border-radius:100%; 
+        z-index:20;   
+    opacity:0.6;
+     filter: alpha(opacity=60); /* internet explorer */
+}
+.madre21{
+    overflow:visible;
+    text-align:center;
+    height:1vh;
+    width:1vw;
+    margin:1vw;
+        z-index:20;
+}
+
+
+
+#sottosinistra5{
+    width:80%;
+margin-top:5%;
+margin-left:30%;
+    height:0px;
+}
+
+
+#miao31{
+    margin-left:-10%;
+     margin-top:33%;
+    top:0%;
+    position:absolute;
+    border-radius:100%;
+        z-index:20;   
+}
+#miao311{
+    margin-left:-10%;
+    margin-top:33%;
+    top:0%;
+    position:absolute;
+    border-radius:100%;
+    z-index:20;   
+    opacity:0.6;
+     filter: alpha(opacity=60); /* internet explorer */
+}
+.madre31{
+    overflow:visible;
+    text-align:center;
+    height:1vh;
+    width:1vw;
+    margin:1vw;
+        z-index:20;
+}
+
+
+
+
+#sottosinistra4:hover + #sottosinistra4 .figlio4{
+   visibility:hidden;
+}
+
+.figlio4{
+   top:50%;
+   margin-left:1%;
+    position:absolute;
+     visibility:visible;
+    width:50vw;
+    height: 45%;
+    background: rgba(255, 255, 255, 0.8);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 10px 0px #616161;
+    -moz-box-shadow: 0px 1px 10px 0px #616161;
+    box-shadow: 0px 1px 10px 0px #616161;
+    text-align:center;
+    color:rgba(119, 17, 54, 0.8);
+    text-shadow: 1px 2px 3px #FFFFFF;
+    padding:15px;
+     background-image:url(http://daila.it/images/site/logotest.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    font-family:Arial;
+    font-size:80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
